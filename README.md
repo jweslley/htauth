@@ -2,7 +2,7 @@
 
 **htauth** generates encrypted passwords for basic and digest authentication.
 
-It's similar to Apache support programs [*htdigest*][] and [*htpasswd*][]. However, **htauth** is much more simpler and focus only in generate encrypted passwords to standard output.
+It's similar to Apache support programs [*htdigest*][htdigest] and [*htpasswd*][htpasswd]. However, **htauth** is much more simpler and focus only in generate encrypted passwords to standard output.
 
 ## Installing
 
