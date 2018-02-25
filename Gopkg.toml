@@ -1,0 +1,3 @@
+[[constraint]]
+  name = "golang.org/x/crypto"
+  branch = "master"
