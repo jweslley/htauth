@@ -2,7 +2,7 @@
 
 **htauth** generates encrypted passwords for basic and digest authentication.
 
-It's similar to Apache support programs *htdigest* and *htpasswd*. However, **htauth** is much more simpler and focus only in generate encrypted passwords to standard output.
+It's similar to Apache support programs [*htdigest*][] and [*htpasswd*][]. However, **htauth** is much more simpler and focus only in generate encrypted passwords to standard output.
 
 ## Installing
 
@@ -15,14 +15,8 @@ It's similar to Apache support programs *htdigest* and *htpasswd*. However, **ht
 
 ## Options
 
-**-h string**
-
-	Hashing encryption for passwords. Available hashing algorithms: bcrypt, sha1, plain. (default "bcrypt")
-
-**-r string**
-
-  The realm name to which the user name belongs. Used only to generate passwords for digest authentication.
-
+* **-h string** Hashing encryption for passwords. Available hashing algorithms: bcrypt, sha1, plain. (default "bcrypt")
+* **-r string** The realm name to which the user name belongs. Used only to generate passwords for digest authentication.
 
 ## Usage
 
@@ -56,3 +50,5 @@ See the LICENSE file provided with the source distribution for full details.
 
 
 [download]: https://github.com/jweslley/htauth/releases
+[htpasswd]: https://httpd.apache.org/docs/2.2/programs/htpasswd.html
+[htdigest]: https://httpd.apache.org/docs/2.2/programs/htdigest.html
